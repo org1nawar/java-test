@@ -9,6 +9,8 @@ public class Main4 {
 
 
 
+
+
     Matcher matcher = EMAIL_PATTERN.matcher("author-mail koko");
     if (!matcher.find(AUTHOR_EMAIL.length()) || matcher.groupCount() != 1) {
       throw new IllegalStateException("Couldn't parse author email from: ");
