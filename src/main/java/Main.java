@@ -36,8 +36,9 @@ public class Main {
   public static void main(String [] args) throws IOException, InterruptedException, GeneralSecurityException, ClassNotFoundException {
 
 
-
     SSLContext context = sslContext("ASAD", "DEZZS");
+    
+    System.out.println(context);
 
 
     System.out.println(context);
@@ -387,3 +388,5 @@ public class Main {
     return sslContext;
   }
 }
+
+
